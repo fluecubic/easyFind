@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: norm;
+    src: url(./Font/Rubik-VariableFont_wght.ttf);
+}
+h1,h2,h3,h4,h5,h6,p,button{
+   font-family: norm;
+   color: white;
+    
+}
+a:hover{
+    opacity: 0.7;
+}
+button:hover{
+    opacity: 0.7;
+}
+input{
+    border-radius: 5px;
+    font-size: 20px;
+    height: 25px;
+    width: 300px;
+    border: 0px;
+}
+input:focus {
+    outline: none;
+}
+button{
+    padding: 0px;
+    font-size: 21px;
+    background-color:rgb(61, 52, 141) ;
+    border-color:rgb(61, 52, 141) ;
+    border-radius: 5px;
+    font-family: norm;      
+}
+#titel{
+    font-size: 60px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+img{
+    width:31px;
+    height: 31px;
+}
+img:hover{
+ opacity: 0.7;
+}
+#input{
+    background-color: white;
+    display: flex;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+}
