@@ -69,7 +69,7 @@ function submit() {
   if (!Abgestimmte.innerHTML.includes(Name)) {
     collectData();
     find()
-  }else{alert("Du hast schon abgestimmt, du Töpel.")}
+  }else{window.alert("Error: Name ist leer oder du hast schon abgestimmt.")}
   clear();
 }
 
