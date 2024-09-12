@@ -75,7 +75,7 @@ function submit() {
 
 function submitbyenter() {
   if (e.key == "enter") {
-    if (document.getElementById("Name").hasFocus() == true) {
+    if (document.getElementById("Name").hasFocus()) {
       Crush.focus()
     } else {
       submit()
