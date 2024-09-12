@@ -73,9 +73,9 @@ function submit() {
   clear();
 }
 
-function submitbyenter() {
+function submitbyenter(event) {
   alert("keypress")
-  if (e.key == "enter") {
+  if (event.key == "Enter") {
     if (document.getElementById("Name").hasFocus()) {
       Crush.focus()
     } else {
@@ -86,4 +86,4 @@ function submitbyenter() {
 }
 
 Senden.onclick = submit;
-addEventListener("keypress", submitbyenter())
+addEventListener("keydown", submitbyenter )
