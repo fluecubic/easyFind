@@ -86,4 +86,4 @@ function submitbyenter(event) {
 }
 
 Senden.onclick = submit;
-addEventListener("keydown", submitbyenter )
+addEventListener("keypress", submitbyenter )
