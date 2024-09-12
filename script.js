@@ -74,6 +74,7 @@ function submit() {
 }
 
 function submitbyenter() {
+  alert("keypress")
   if (e.key == "enter") {
     if (document.getElementById("Name").hasFocus()) {
       Crush.focus()
