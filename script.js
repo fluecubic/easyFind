@@ -8,11 +8,11 @@ function changeMode() {
  if (mode == "view") {
   mode = "hide";
   Crush.type = "password";
-  eye.src = "./Bilder/view.png";
+  eye.src = "./bilder/view.png";
 } else{
   mode = "view";
   Crush.type = "text";
-  eye.src = "./Bilder/hide.png";  
+  eye.src = "./bilder/hide.png";  
 }  
 }
 
