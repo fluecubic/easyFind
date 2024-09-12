@@ -73,4 +73,16 @@ function submit() {
   clear();
 }
 
+function submitbyenter() {
+  if (e.key == "enter") {
+    if (document.getElementById("Name").hasFocus() == true) {
+      Crush.focus()
+    } else {
+      submit()
+    }
+    
+  }
+}
+
 Senden.onclick = submit;
+addEventListener(KeyboardEvent, submitbyenter)
